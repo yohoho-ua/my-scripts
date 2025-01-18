@@ -2,8 +2,8 @@
 
 # Check if the input file is provided
 if [ "$#" -lt 1 ]; then
-  echo "Usage: $0 input_file.xlsx [filter_column filter_substring cut_columns output_headers]"
-  echo "Example: $0 input.xlsx 1 'buzz' '2,3' 'login,target_email'"
+  echo "Usage: txls input_file.xlsx [filter_column filter_substring cut_columns output_headers]"
+  echo "Example: txls input.xlsx 1 'buzz' '2,3' 'login,target_email'"
   exit 1
 fi
 

@@ -1,0 +1,8 @@
+alias txls='transform_xlsx.sh'
+alias recadd='pbpaste >> ~/recents.txt && echo "\n" >> ~/recents.txt'
+alias reclist='cat ~/recents.txt'
+alias recedit='vim ~/recents.txt'
+alias add2zsh='add_to_zshrc.sh'
+alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+alias dcdurl='node ~/scripts/decode-url.js'
+alias dot='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
